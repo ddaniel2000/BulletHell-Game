@@ -367,6 +367,7 @@
 "Assets/Scripts/Camera/CameraLookAtPlayer.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemyMovement.cs"
+"Assets/Scripts/PickUp/PickUpRandomPosition.cs"
 "Assets/Scripts/Player/InputManager.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
