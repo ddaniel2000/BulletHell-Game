@@ -112,7 +112,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -349,20 +349,29 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Input actions/PlayerInput.cs"
+"Assets/rotatePointWithMouse.cs"
 "Assets/Samples/Input System/1.3.0/Custom Binding Composite/CustomComposite.cs"
 "Assets/Samples/Input System/1.3.0/Simple Demo/SimpleController_UsingActionAsset.cs"
 "Assets/Samples/Input System/1.3.0/Simple Demo/SimpleController_UsingActions.cs"
 "Assets/Samples/Input System/1.3.0/Simple Demo/SimpleController_UsingPlayerInput.cs"
 "Assets/Samples/Input System/1.3.0/Simple Demo/SimpleController_UsingState.cs"
 "Assets/Samples/Input System/1.3.0/Simple Demo/SimpleControls.cs"
-"Assets/Scripts/Bullet.cs"
-"Assets/Scripts/BulletPool.cs"
-"Assets/Scripts/Enemy.cs"
-"Assets/Scripts/EnemyMovement.cs"
-"Assets/Scripts/FireBullet.cs"
-"Assets/Scripts/InputManager.cs"
-"Assets/Scripts/PlayerLook.cs"
-"Assets/Scripts/PlayerMotor.cs"
+"Assets/Scripts/Bullets & fire/Bullet.cs"
+"Assets/Scripts/Bullets & fire/Bullet2.cs"
+"Assets/Scripts/Bullets & fire/BulletPool.cs"
+"Assets/Scripts/Bullets & fire/BulletPool2.cs"
+"Assets/Scripts/Bullets & fire/FireBullet.cs"
+"Assets/Scripts/Bullets & fire/FireBulletPattern2.cs"
+"Assets/Scripts/Bullets & fire/FireBulletPattern3.cs"
+"Assets/Scripts/Bullets & fire/RadialBulletPattern.cs"
+"Assets/Scripts/Camera/CameraLookAtPlayer.cs"
+"Assets/Scripts/Enemy/Enemy.cs"
+"Assets/Scripts/Enemy/EnemyMovement.cs"
+"Assets/Scripts/Player/InputManager.cs"
+"Assets/Scripts/Player/PlayerLook.cs"
+"Assets/Scripts/Player/PlayerMotor.cs"
+"Assets/Scripts/Player/ThirdPersonMovement.cs"
+"Assets/spiralFireBullets.cs"
 -langversion:9.0
 
 /deterministic
