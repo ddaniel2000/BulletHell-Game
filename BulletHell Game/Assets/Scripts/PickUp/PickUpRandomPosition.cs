@@ -27,6 +27,7 @@ public class PickUpRandomPosition : MonoBehaviour
         if (other.tag == "Player")
         {
             transform.position = new Vector3(100, 0, 0);
+            Score.scoreAmount += 1;
             StartCoroutine(nextPosition());
         }
     }

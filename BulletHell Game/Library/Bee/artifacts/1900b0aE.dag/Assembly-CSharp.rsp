@@ -367,12 +367,17 @@
 "Assets/Scripts/Camera/CameraLookAtPlayer.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemyMovement.cs"
+"Assets/Scripts/Laser/Laser.cs"
+"Assets/Scripts/Laser/LaserBullet.cs"
+"Assets/Scripts/PickUp/PickUpBonus.cs"
 "Assets/Scripts/PickUp/PickUpRandomPosition.cs"
 "Assets/Scripts/Player/InputManager.cs"
+"Assets/Scripts/Player/PlayerCollisionsInteractions.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
+"Assets/Scripts/Player/PlayerStopRocket.cs"
 "Assets/Scripts/Player/ThirdPersonMovement.cs"
-"Assets/spiralFireBullets.cs"
+"Assets/Scripts/Score/Score.cs"
 -langversion:9.0
 
 /deterministic
