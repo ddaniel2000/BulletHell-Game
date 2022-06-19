@@ -88,5 +88,7 @@ public class ThirdPersonMovement : MonoBehaviour
             return (distance > moveMinimum);
         }
     }
+
+    
 }
 

@@ -17,7 +17,7 @@ public class rotatePointWithMouse : MonoBehaviour
     {
         turn.x += Input.GetAxis("Mouse X");
         turn.y += Input.GetAxis("Mouse Y");
-        turn.x = Mathf.Clamp(turn.x, -38, 38);
+        //turn.x = Mathf.Clamp(turn.x, -38, 38);
 
         transform.localRotation = Quaternion.Euler(/*turn.y*/ 0, turn.x, 0);
         

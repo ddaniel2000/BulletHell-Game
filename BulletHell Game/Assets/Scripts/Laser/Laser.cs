@@ -31,7 +31,7 @@ public class Laser : MonoBehaviour
             Shoot();
             delay = timeBeetweenShoots;
         }
-        Debug.Log(delay);
+       // Debug.Log(delay);
     }
 
     public void Shoot()

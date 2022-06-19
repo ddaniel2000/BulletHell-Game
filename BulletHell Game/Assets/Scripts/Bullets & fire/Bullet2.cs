@@ -23,8 +23,18 @@ public class Bullet2 : MonoBehaviour
     void Update()
     {
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-        Object.Destroy(gameObject, 4f);
+        Object.Destroy(gameObject, 6f);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("MORT");
+        }
+    }
+
+
 
     public void SetMoveDirection(Vector2 dir)
     {

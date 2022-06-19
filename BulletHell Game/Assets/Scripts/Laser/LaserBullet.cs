@@ -16,5 +16,14 @@ public class LaserBullet : MonoBehaviour
     void Update()
     {
         transform.Translate(new Vector3(0f, 0f, speed * Time.deltaTime));
+        Object.Destroy(gameObject, 4f);
     }
+        void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("MORT");
+        }
+    }
+
 }

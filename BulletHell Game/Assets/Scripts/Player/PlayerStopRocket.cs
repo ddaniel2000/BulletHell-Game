@@ -11,6 +11,7 @@ public class PlayerStopRocket : MonoBehaviour
 
     private float timeLeft;
     public float timeLimit = 0.3f;
+    public float timeToDestroy = 0.1f;
     public bool timerOn = false;
     
     public GameObject rocket;
@@ -38,6 +39,14 @@ public class PlayerStopRocket : MonoBehaviour
             StartCoroutine(SpawnRocket());
         }
         
+    }
+
+    void OnCollisionEnter(Collision collisionInfo)
+    {
+        if (collisionInfo.collider.tag == "Player")
+        {
+            Debug.Log("MORT");
+        }
     }
 
     IEnumerator SpawnRocket()

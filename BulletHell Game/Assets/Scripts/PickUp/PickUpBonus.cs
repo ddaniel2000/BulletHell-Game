@@ -26,7 +26,7 @@ public class PickUpBonus : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            transform.position = new Vector3(110, 0, 0);
+            transform.position = new Vector3(110, 110, 0);
             Score.scoreAmount += 20;
             StartCoroutine(nextPosition());
         }

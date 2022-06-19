@@ -371,6 +371,7 @@
 "Assets/Scripts/Laser/LaserBullet.cs"
 "Assets/Scripts/PickUp/PickUpBonus.cs"
 "Assets/Scripts/PickUp/PickUpRandomPosition.cs"
+"Assets/Scripts/Player/BulletRocket.cs"
 "Assets/Scripts/Player/InputManager.cs"
 "Assets/Scripts/Player/PlayerCollisionsInteractions.cs"
 "Assets/Scripts/Player/PlayerLook.cs"

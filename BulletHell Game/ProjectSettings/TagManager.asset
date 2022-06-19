@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enviroment
   - PickUp
+  - Bullet
   layers:
   - Default
   - TransparentFX
