@@ -13,8 +13,8 @@ public class PickUpBonus : MonoBehaviour
     IEnumerator nextPosition()
     {
 
-        int xPos = Random.Range(-13, 13);
-        int zPos = Random.Range(-13, 13);
+        int xPos = Random.Range(-10, 10);
+        int zPos = Random.Range(-20, -2);
         int waitForNextPosition = Random.Range(5, 15);
 
         yield return new WaitForSeconds(waitForNextPosition);

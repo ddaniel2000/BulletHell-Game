@@ -12,9 +12,9 @@ public class PickUpRandomPosition : MonoBehaviour
 
     IEnumerator nextPosition()
     {
-        
-        int xPos = Random.Range(-13, 13);
-        int zPos = Random.Range(-13, 13);
+
+        int xPos = Random.Range(-10, 10);
+        int zPos = Random.Range(-20, -2);
         int waitForNextPosition = Random.Range(1, 3);
 
         yield return new WaitForSeconds(waitForNextPosition);

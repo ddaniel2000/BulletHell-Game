@@ -19,6 +19,8 @@ public class RadialBulletPattern : MonoBehaviour
     public int timeBeetweenShoots = 1;
     private bool restartCoroutine = false;
 
+    public float startAngle = 180f, endAngle = 270f;
+
     void Start()
     {
         StartCoroutine(ShootingPattern());
@@ -34,8 +36,8 @@ public class RadialBulletPattern : MonoBehaviour
     }
     private void SpawnProjectile(int _numberOfProjectiles)
     {
-        float angleStep = 360f / _numberOfProjectiles;
-        float angle = 0f;
+        float angleStep = (endAngle - startAngle) / _numberOfProjectiles;
+        float angle = -90f;
 
         for (int i = 0; i <= _numberOfProjectiles - 1 ; i++)
         {

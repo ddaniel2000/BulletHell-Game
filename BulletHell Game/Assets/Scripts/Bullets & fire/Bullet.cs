@@ -26,21 +26,21 @@ public class Bullet : MonoBehaviour
 
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            Debug.Log("MORT");
-        }
-    }
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Player")
+    //    {
+    //        Debug.Log("MORT");
+    //    }
+    //}
 
-    void OnCollisionEnter(Collision collisionInfo)
-    {
-        if (collisionInfo.collider.tag == "Player")
-        {
-            Debug.Log("MORT");
-        }
-    }
+    //void OnCollisionEnter(Collision collisionInfo)
+    //{
+    //    if (collisionInfo.collider.tag == "Player")
+    //    {
+    //        Debug.Log("MORT");
+    //    }
+    //}
 
     public void SetMoveDirection(Vector2 dir)
     {

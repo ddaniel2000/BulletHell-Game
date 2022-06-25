@@ -8,31 +8,31 @@ public class Bullet2 : MonoBehaviour
     private float moveSpeed;
 
 
-    private void OnEnable()
-    {
-        Invoke("Destroy", 3f);
-    }
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        moveSpeed = 5f;
+        moveSpeed = 10f;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+        transform.Translate(moveDirection * moveSpeed * 2 * Time.deltaTime);
         Object.Destroy(gameObject, 6f);
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            Debug.Log("MORT");
-        }
-    }
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Player")
+    //    {
+    //        player.GetComponent<Health>().ModifyHealth(-10);
+    //        Debug.Log("DAMAGE");
+    //    }
+    //}
 
 
 
@@ -41,11 +41,7 @@ public class Bullet2 : MonoBehaviour
         moveDirection = dir;
     }
 
-    private void Destroy()
-    {
-        //gameObject.SetActive(false);
-        
-    }
+
 
     private void OnDisable()
     {

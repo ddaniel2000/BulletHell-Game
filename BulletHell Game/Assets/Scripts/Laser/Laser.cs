@@ -22,8 +22,8 @@ public class Laser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        direction = player.position - transform.position;
-        transform.LookAt(player, Vector3.left);
+        direction = new Vector3 (player.position.x, 0, player.position.z);
+        transform.LookAt(direction, Vector3.left);
 
         delay -= Time.deltaTime;
         if (delay < 0)
