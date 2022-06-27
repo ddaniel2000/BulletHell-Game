@@ -8,6 +8,8 @@ TagManager:
   - PickUp
   - Bullet
   - Enemy
+  - Missile
+  - Shield
   layers:
   - Default
   - TransparentFX

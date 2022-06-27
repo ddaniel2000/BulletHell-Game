@@ -34,11 +34,5 @@ public class ShockWaveShoot : MonoBehaviour
         Instantiate(shockWaveBullet, shootPoint.transform.position, shootPoint.transform.rotation);
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            Debug.Log("MORT");
-        }
-    }
+
 }

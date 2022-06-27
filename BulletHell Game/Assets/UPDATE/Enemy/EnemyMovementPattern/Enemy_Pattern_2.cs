@@ -38,7 +38,7 @@ public class Enemy_Pattern_2 : MonoBehaviour
         yield return new WaitForSeconds(timeBeetweenMoves);
         transform.LookAt(new Vector3(player.transform.position.x, 1.9f, player.transform.position.z));
         playerLastPos = new Vector3(player.transform.position.x, 1.9f, player.transform.position.z);
-        yield return new WaitForSeconds(timeBeetweenMoves / 2);
+        yield return new WaitForSeconds(timeBeetweenMoves / 3);
         transform.position = Vector3.Lerp(transform.position, playerLastPos, speed);
         restartCoroutine2 = true;
     }

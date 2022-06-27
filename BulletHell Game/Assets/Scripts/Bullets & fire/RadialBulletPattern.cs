@@ -5,8 +5,8 @@ using UnityEngine;
 public class RadialBulletPattern : MonoBehaviour
 {
     //numbers of projectiles to shoot
-    private int numberOfProjectiles1 = 18;
-    private int numberOfProjectiles2 = 1000;
+    private int numberOfProjectiles = 18;
+
     //speed of the projectile
     public float projectileSpeed;
     //profab to spawn
@@ -18,27 +18,24 @@ public class RadialBulletPattern : MonoBehaviour
     private const float radius = 1f;
 
     public int timeBeetweenShoots = 1;
-    private bool restartCoroutine1 = false;
-    private bool restartCoroutine2 = false;
+    private bool restartCoroutine = false;
+ 
 
     public float startAngle = 180f, endAngle = 270f;
 
     void Start()
     {
-        StartCoroutine(ShootingPattern1());
+        StartCoroutine(ShootingPattern());
     }
     // Update is called once per frame
 
     void Update()
     {
-        if (restartCoroutine1 == true)
+        if (restartCoroutine == true)
         {
-            StartCoroutine(ShootingPattern1());
+            StartCoroutine(ShootingPattern());
         }
-        if (restartCoroutine2 == true)
-        {
-            StartCoroutine(ShootingPattern2());
-        }
+
     }
     private void SpawnProjectile(int _numberOfProjectiles)
     {
@@ -60,22 +57,14 @@ public class RadialBulletPattern : MonoBehaviour
         }
     }
 
-    IEnumerator ShootingPattern1()
+    IEnumerator ShootingPattern()
     {
-        restartCoroutine1 = false;
+        restartCoroutine = false;
         startPoint = transform.position;
-        SpawnProjectile(numberOfProjectiles1);
+        SpawnProjectile(numberOfProjectiles);
         yield return new WaitForSeconds(timeBeetweenShoots);
 
-        restartCoroutine2 = true;
+        restartCoroutine = true;
     }
-    IEnumerator ShootingPattern2()
-    {
-        restartCoroutine2 = false;
-        startPoint = transform.position;
-        SpawnProjectile(numberOfProjectiles2);
-        yield return new WaitForSeconds(timeBeetweenShoots );
 
-        restartCoroutine1 = true;
-    }
 }

@@ -47,4 +47,12 @@ public class Bullet2 : MonoBehaviour
     {
         CancelInvoke();
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Shield")
+        {
+            Destroy(gameObject, 0.01f);
+        }
+    }
 }

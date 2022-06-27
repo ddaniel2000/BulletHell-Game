@@ -13,6 +13,8 @@ public class PlayerStopRocket : MonoBehaviour
     public float timeLimit = 0.3f;
     public float timeToDestroy = 0.1f;
     public bool timerOn = false;
+
+    public GameObject warningSign;
     
     public GameObject rocket;
 
@@ -51,11 +53,12 @@ public class PlayerStopRocket : MonoBehaviour
 
     IEnumerator SpawnRocket()
     {
-        
+        warningSign.SetActive(true);
         Instantiate(rocket, transform.position + new Vector3(0, 10, 0), Quaternion.identity);
+
         timeLeft = timeLimit;
         yield return new WaitForSeconds(timeLimit);
-        
+        warningSign.SetActive(false);
         playerStopped = false;
     }
 }

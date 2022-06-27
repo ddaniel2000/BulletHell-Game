@@ -25,5 +25,11 @@ public class LaserBullet : MonoBehaviour
     //        Debug.Log("MORT");
     //    }
     //}
-
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Shield")
+        {
+            Destroy(gameObject, 0.01f);
+        }
+    }
 }

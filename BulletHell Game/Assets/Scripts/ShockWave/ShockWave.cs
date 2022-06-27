@@ -27,6 +27,12 @@ public class ShockWave : MonoBehaviour
         transform.localScale = Vector3.Lerp(startScale, maxScale, timer / growTime);
         Object.Destroy(gameObject, 6f);
     }
-
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Shield")
+        {
+            Destroy(gameObject, 0.01f);
+        }
+    }
 
 }

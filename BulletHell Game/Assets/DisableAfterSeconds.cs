@@ -6,6 +6,7 @@ public class DisableAfterSeconds : MonoBehaviour
 {
     private bool startCoroutine = false;
     public float disblerTime = 2f;
+    private float roateObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,10 @@ public class DisableAfterSeconds : MonoBehaviour
         if (startCoroutine == true)
         {
             StartCoroutine(Disable());
-        } 
+        }
+
+        roateObject += 0.01f;
+        transform.Rotate(new Vector3(0, roateObject, 0));
             
     }
     public void DisableGameObject()

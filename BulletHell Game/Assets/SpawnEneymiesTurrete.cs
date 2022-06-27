@@ -34,4 +34,11 @@ public class SpawnEneymiesTurrete : MonoBehaviour
         restartCoroutine = true;
 
     }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Shield"))
+        {
+            Destroy(this);
+        }
+    }
 }

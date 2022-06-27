@@ -1,0 +1,632 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.12f1 (48b1aa000234) revision 4764074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Confidential/BulletHell-Game/BulletHell Game
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+14155
+Successfully changed project path to: D:/Confidential/BulletHell-Game/BulletHell Game
+D:/Confidential/BulletHell-Game/BulletHell Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 139.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.12f1 (48b1aa000234)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Confidential/BulletHell-Game/BulletHell Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013905 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006109 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Confidential\BulletHell-Game\BulletHell Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Confidential\BulletHell-Game\BulletHell Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1324ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1061ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3649 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.5 KB). Loaded Objects now: 4115.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 3.648000 ms (FindLiveObjects: 0.397500 ms CreateObjectMapping: 0.350800 ms MarkObjects: 2.801000 ms  DeleteObjects: 0.097900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 541184.157764 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Emojis/em_poop.mat
+  artifactKey: Guid(e7c9e73060532ea46ae00e3478492deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Emojis/em_poop.mat using Guid(e7c9e73060532ea46ae00e3478492deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b655bff5b24f58969a0910af3eb1abc') in 0.174104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282550 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Emojis/em_thumbsdown.mat
+  artifactKey: Guid(7af21db0aa9c1f845afee3785e827288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Emojis/em_thumbsdown.mat using Guid(7af21db0aa9c1f845afee3785e827288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b0933177e8cc65a29dca55c9d17f11') in 0.019490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Emojis/em_yawn.mat
+  artifactKey: Guid(44d53cf9a6ccfc24781ba89604ee0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Emojis/em_yawn.mat using Guid(44d53cf9a6ccfc24781ba89604ee0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a1ef081d714bd236f2fd898afa28c7') in 0.011625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Unsorted/evil_spirit_ADD.mat
+  artifactKey: Guid(d0a013cf4059c97419da65dc3619d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Unsorted/evil_spirit_ADD.mat using Guid(d0a013cf4059c97419da65dc3619d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1978c49fbabd3c9e3b00c3bc30c29f') in 0.012085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Explosions/explosion_spritesheet_3x3_AB.mat
+  artifactKey: Guid(e7912d15146fcf145afaaedec646b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Explosions/explosion_spritesheet_3x3_AB.mat using Guid(e7912d15146fcf145afaaedec646b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c308ab5ce7aa544a3314cce075bc54') in 0.017583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Explosions/explosion_spritesheet2_3x3_AB.mat
+  artifactKey: Guid(b57ecb5d7cd1cee469d6acafc107ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Explosions/explosion_spritesheet2_3x3_AB.mat using Guid(b57ecb5d7cd1cee469d6acafc107ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b039b1005e9d9961b375e4e7cd5d7ea7') in 0.011867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Unsorted/feather_AB.mat
+  artifactKey: Guid(9c06f7d2bce03ad45b125b8af7a59cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Unsorted/feather_AB.mat using Guid(9c06f7d2bce03ad45b125b8af7a59cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1af14df67298c492bd8bd945b88d196') in 0.011794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/glow1_AB.mat
+  artifactKey: Guid(aee7f230a05bc8644854344e7c55f328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/glow1_AB.mat using Guid(aee7f230a05bc8644854344e7c55f328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0659889e38e649aaec042908f8935489') in 0.018771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Fire/fire_soft_AB.mat
+  artifactKey: Guid(f527801e80dd0814a9d5d318dbd03d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Fire/fire_soft_AB.mat using Guid(f527801e80dd0814a9d5d318dbd03d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce03119a0c17dfffea93b8c8f26d4f19') in 0.017331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.879791 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/glow2_ADD.mat
+  artifactKey: Guid(b29e688b444288148ad46d4aae66cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/glow2_ADD.mat using Guid(b29e688b444288148ad46d4aae66cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb404f57b3cc9dcf6b437039009fd2e') in 0.013496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/gradient_circle_ADD.mat
+  artifactKey: Guid(f6a50ac73cb086a4fad339b8e93c8b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/gradient_circle_ADD.mat using Guid(f6a50ac73cb086a4fad339b8e93c8b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9e8c049f69811de4977df26188e37f') in 0.014260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011679 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/gradient_edges_ADD.mat
+  artifactKey: Guid(43a9eafdbf18e9c4ca51ae50f35ec175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/gradient_edges_ADD.mat using Guid(43a9eafdbf18e9c4ca51ae50f35ec175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9885e0b4fb940601a8d09e8b167cb6cd') in 0.010075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.431901 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Unsorted/healing_AB.mat
+  artifactKey: Guid(54cefa110e6b9d1499678d82a2e0efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Unsorted/healing_AB.mat using Guid(54cefa110e6b9d1499678d82a2e0efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f99e740edacd50e49bcffc5c2175ff') in 0.011727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Unsorted/ice_spikes_ADD.mat
+  artifactKey: Guid(df49654d9efe3fa4d8511bd148caabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Unsorted/ice_spikes_ADD.mat using Guid(df49654d9efe3fa4d8511bd148caabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101bd3f5ae489ac0ab9dd3d2e79e4efe') in 0.010906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476669 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/lasergradient_AB.mat
+  artifactKey: Guid(92702363e36a1e74cbe34cad65ad5e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/lasergradient_AB.mat using Guid(92702363e36a1e74cbe34cad65ad5e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1a88582bbf7174e2c3c4b73e18a528') in 0.012951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Lightning/lightning2_ADD.mat
+  artifactKey: Guid(14be5e3a1d16be14281688ea50c69c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Lightning/lightning2_ADD.mat using Guid(14be5e3a1d16be14281688ea50c69c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f494403a2ab358f2fd683de14979341') in 0.011200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012065 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Lightning/lightning_3x3_ADD.mat
+  artifactKey: Guid(12b56d0b81e80e748b8129a9c1a582d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Lightning/lightning_3x3_ADD.mat using Guid(12b56d0b81e80e748b8129a9c1a582d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4fad18eb236217ff2fdcf37b16a8b9') in 0.016932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/line_sharp_AB.mat
+  artifactKey: Guid(8c8ec7f6096f3654989f118bd767030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/line_sharp_AB.mat using Guid(8c8ec7f6096f3654989f118bd767030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612509ff3bd4bc0507604a465da4d987') in 0.011328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.872445 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastOrangePurple.prefab
+  artifactKey: Guid(5a0a0878a2909a545a8c905f63fd4b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastOrangePurple.prefab using Guid(5a0a0878a2909a545a8c905f63fd4b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc871a4ef46872554c877b55f682ebcb') in 0.031520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Fear & Surprise/EmojiBlush.prefab
+  artifactKey: Guid(deee6d895acb70643b8cfa1e60b70e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Fear & Surprise/EmojiBlush.prefab using Guid(deee6d895acb70643b8cfa1e60b70e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536bdfb00d80f65374ef44e00c46211') in 0.019672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerGreenYellow.prefab
+  artifactKey: Guid(44fee991522ba5146b96d736beaf1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerGreenYellow.prefab using Guid(44fee991522ba5146b96d736beaf1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd300308792a071a26ed84e766ea3f045') in 0.012990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Anger/EmojiAngry2.prefab
+  artifactKey: Guid(ab9041fcf0d2ca5429b835df2786ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Anger/EmojiAngry2.prefab using Guid(ab9041fcf0d2ca5429b835df2786ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b426e4bc796379ff984488dd64495f0') in 0.012846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalRainbow.prefab
+  artifactKey: Guid(4de72d65c2293424cbe6461a89fe2997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Directional/ConfettiDirectionalRainbow.prefab using Guid(4de72d65c2293424cbe6461a89fe2997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cb0ef3748672365ad840d1f0d4fb1e') in 0.014867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillDirectional.prefab
+  artifactKey: Guid(5fcafcc84e4baa34fad1dfafcad179c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillDirectional.prefab using Guid(5fcafcc84e4baa34fad1dfafcad179c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7927ed07726ced7bb0e37ff9591e055') in 0.016262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerOrangePurple.prefab
+  artifactKey: Guid(0e9c9a850c3c6cf47b5e1f4dd28e36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerOrangePurple.prefab using Guid(0e9c9a850c3c6cf47b5e1f4dd28e36a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154d53054f7f395e03fb419b70acbe82') in 0.012208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Demo/Demo Prefabs/DemoScene.prefab
+  artifactKey: Guid(f5c964cb275792048b8d3b8f625c043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Demo Prefabs/DemoScene.prefab using Guid(f5c964cb275792048b8d3b8f625c043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0e2deab86d48fd787e01cf12784d9') in 0.022435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillShower.prefab
+  artifactKey: Guid(2f01cf02202bd2b4aa89a8c48b767387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillShower.prefab using Guid(2f01cf02202bd2b4aa89a8c48b767387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dca9e080923396793287dac8ccebb57') in 0.012772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoofSoft.prefab
+  artifactKey: Guid(146d2ff25be0f824fa285b16b2915ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoofSoft.prefab using Guid(146d2ff25be0f824fa285b16b2915ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d1f669d39c4f45d3ac527a6296ec7d') in 0.015287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Demo/Demo Prefabs/DemoScene2D.prefab
+  artifactKey: Guid(b64ec398be856c34090b54c24f328fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Demo Prefabs/DemoScene2D.prefab using Guid(b64ec398be856c34090b54c24f328fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8498cf65c2a0eb3a96a0ee5889a374') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Fear & Surprise/EmojiClenchTeeth.prefab
+  artifactKey: Guid(b64d58e97c1b8fd4b88b4f34c4415789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Fear & Surprise/EmojiClenchTeeth.prefab using Guid(b64d58e97c1b8fd4b88b4f34c4415789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15ff8db9214ba0dd8a260731eb21a56') in 0.013467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Death/Skulls/ElectricDeathBlue.prefab
+  artifactKey: Guid(96a96c08c36361544affb3c783e0056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Death/Skulls/ElectricDeathBlue.prefab using Guid(96a96c08c36361544affb3c783e0056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb7b42d03cc1ff9b759c012a72d1946') in 0.021687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.514831 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Cards/CardglowType04.prefab
+  artifactKey: Guid(84057e0cb9821ce439e07503c43b3e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Cards/CardglowType04.prefab using Guid(84057e0cb9821ce439e07503c43b3e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e2d89cf8e874699d6d9784162c796a') in 0.119154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleBlue.prefab
+  artifactKey: Guid(dbc886d3433d6aa4786fa9807aed6a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleBlue.prefab using Guid(dbc886d3433d6aa4786fa9807aed6a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25dfaa79f4b8997be6ba1ccf452e196') in 0.012955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLight2/CandleLight2Smoke.prefab
+  artifactKey: Guid(b494e3d4a3280c7488e7ae972950ad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLight2/CandleLight2Smoke.prefab using Guid(b494e3d4a3280c7488e7ae972950ad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06295b246a8b80dbdcd36e2ea918cbc2') in 0.016431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab
+  artifactKey: Guid(727e4ea27328a6e46bcd171a935685d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab using Guid(727e4ea27328a6e46bcd171a935685d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba7ad44cb3e50bef645988f989b6735') in 0.014033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLightSoft/CandleLightSoftRed.prefab
+  artifactKey: Guid(19936ebf972cace4c9f2e3b814ca212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLightSoft/CandleLightSoftRed.prefab using Guid(19936ebf972cace4c9f2e3b814ca212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8552fc10a6005e54a5d738daf80e1f53') in 0.013069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLightSoft/CandleLightSoftYellow.prefab
+  artifactKey: Guid(10068c0e5a2b4da4d8507a63381abb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLightSoft/CandleLightSoftYellow.prefab using Guid(10068c0e5a2b4da4d8507a63381abb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ae87f79947deab5fa3ee86d170bcb') in 0.015832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/Bullet/BulletSmallGreenOBJ.prefab
+  artifactKey: Guid(b504fe6f986133d44840fab156407516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/Bullet/BulletSmallGreenOBJ.prefab using Guid(b504fe6f986133d44840fab156407516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2527ff3c00536f8fb0c031661fbe1bf8') in 0.011894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallBlue.prefab
+  artifactKey: Guid(b79841d82f4b1f6499d7f44697afdcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallBlue.prefab using Guid(b79841d82f4b1f6499d7f44697afdcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf2a50e661a2a3701307172e83c1f08') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Stars/CalmStarField.prefab
+  artifactKey: Guid(8a9f308ef9cd0c54d8610bef73a3c9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Stars/CalmStarField.prefab using Guid(8a9f308ef9cd0c54d8610bef73a3c9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaea74af2212b8530214f11cfd0fb70') in 0.012591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLightSoft/CandleLightSoftGreen.prefab
+  artifactKey: Guid(402817be8160781439ab26b12d1719df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Fire/Candle/CandleLightSoft/CandleLightSoftGreen.prefab using Guid(402817be8160781439ab26b12d1719df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef47e005f481997743191c599c266221') in 0.015170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.302856 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletFatPink.prefab
+  artifactKey: Guid(57655e8894da46a4aa87ffad47144413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletFatPink.prefab using Guid(57655e8894da46a4aa87ffad47144413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b31d51859787623eef0ca82cf3a9eb2') in 0.013933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatPink.prefab
+  artifactKey: Guid(037659019c789f546b23e5bc31925536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatPink.prefab using Guid(037659019c789f546b23e5bc31925536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af62d3f5edfe662e1a4430f6ff29bea4') in 0.015284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatFire.prefab
+  artifactKey: Guid(6531fcf59340b354fa8ac2e69f4c29ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatFire.prefab using Guid(6531fcf59340b354fa8ac2e69f4c29ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e564fabf09282a716f2e807f58c9ee') in 0.015492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleGreen.prefab
+  artifactKey: Guid(5023fa96dbfa5a44cbb0314e88786a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleGreen.prefab using Guid(5023fa96dbfa5a44cbb0314e88786a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6c2e6e4f7edb9a08622364c6b9529a') in 0.015016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleFire.prefab
+  artifactKey: Guid(8deb1def3de25b04b8371070fbb372fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleFire.prefab using Guid(8deb1def3de25b04b8371070fbb372fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c119cefdd650d2676de15537caa0d34') in 0.014023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionFire.prefab
+  artifactKey: Guid(71b02155078e4bf4e962f302d3675af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionFire.prefab using Guid(71b02155078e4bf4e962f302d3675af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a472ae066ac720acb67a2b73cf0ec2') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalDirt.prefab
+  artifactKey: Guid(e5448bf09bf80c84683234d05d3ccf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalDirt.prefab using Guid(e5448bf09bf80c84683234d05d3ccf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37756836c0b63ecf64e01f9f05d9ce08') in 0.015756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BubbleMuzzle/BubbleMuzzle.prefab
+  artifactKey: Guid(452f8c6f5b6d23b4e966a40a9e4720c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BubbleMuzzle/BubbleMuzzle.prefab using Guid(452f8c6f5b6d23b4e966a40a9e4720c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9c4121edf4e69d6a0de12017eb0828') in 0.014172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionPink.prefab
+  artifactKey: Guid(0a43d6af30ffda6498fb97d7d3202d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionPink.prefab using Guid(0a43d6af30ffda6498fb97d7d3202d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b9976fa579e705bc6f990917446f8b') in 0.017341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalGrass.prefab
+  artifactKey: Guid(5bc227c2a45a7e44ea8521ddb446b620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalGrass.prefab using Guid(5bc227c2a45a7e44ea8521ddb446b620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4466320ef841b7ea1e8bc67b977e9781') in 0.017494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionGreen.prefab
+  artifactKey: Guid(1fe35c3ac77275e4d81bc09fcde78105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionGreen.prefab using Guid(1fe35c3ac77275e4d81bc09fcde78105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af29b28557430ced4ffa12686f9b3d5d') in 0.019262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Water/Bubbles/BubbleSimplestTrail.prefab
+  artifactKey: Guid(9264dd34d0071b9439386302db7e5d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Water/Bubbles/BubbleSimplestTrail.prefab using Guid(9264dd34d0071b9439386302db7e5d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044c22f663c48f78ef5f9e6dd8093866') in 0.013031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalWood.prefab
+  artifactKey: Guid(9730ee03d63d26a4fa184edd660d0c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalWood.prefab using Guid(9730ee03d63d26a4fa184edd660d0c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e51e7c3f75ff27f87d07c6bc82dcba') in 0.017205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionBlue.prefab
+  artifactKey: Guid(79b0a8abb1f641b4a8faa10b904758ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionBlue.prefab using Guid(79b0a8abb1f641b4a8faa10b904758ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf0ce62fbbfef10eae2ab3b573e6350') in 0.015621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065106 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab
+  artifactKey: Guid(9fc1afc1190c21b459bff8bed1d9ec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab using Guid(9fc1afc1190c21b459bff8bed1d9ec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c468a87d0a84c3b0463a52380a945fb0') in 0.010763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Boom.prefab
+  artifactKey: Guid(0898b572f28fb32439fbe4be9a9beb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Boom.prefab using Guid(0898b572f28fb32439fbe4be9a9beb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9a16f898a2d6033fc27984945573cc') in 0.017158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodShowerLoop.prefab
+  artifactKey: Guid(1e8e6d05067c77b479668df7a46b5f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodShowerLoop.prefab using Guid(1e8e6d05067c77b479668df7a46b5f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d2fff966460653acf6c6cf197fa44c') in 0.012176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodDripping.prefab
+  artifactKey: Guid(98e35bc5094f25441a4c3b405abf1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodDripping.prefab using Guid(98e35bc5094f25441a4c3b405abf1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8af483fc9ca78f9525edd4c83f77fb') in 0.012496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneWhite.prefab
+  artifactKey: Guid(22c40b612022044449a3cead95148403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone/BasicZoneWhite.prefab using Guid(22c40b612022044449a3cead95148403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebfc0ea0fb5018c75f4ca3899322c79') in 0.016402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosionRound.prefab
+  artifactKey: Guid(01949c12a89de284792dc4b7b7128404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosionRound.prefab using Guid(01949c12a89de284792dc4b7b7128404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e409b1550fce5814103144b18ef1e1') in 0.014900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosionSpiky.prefab
+  artifactKey: Guid(a3c24a5ae068ed44d950af671f99cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosionSpiky.prefab using Guid(a3c24a5ae068ed44d950af671f99cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8067e37043a4d0862b5eaf5ce88e5d') in 0.017183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Misc/AuraTest.prefab
+  artifactKey: Guid(6308f0b3d17858a479f9cb4a9456e13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Misc/AuraTest.prefab using Guid(6308f0b3d17858a479f9cb4a9456e13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ad19df925c25afc52205a44279be71') in 0.013983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Water/Boiling/AcidBoiling.prefab
+  artifactKey: Guid(e370423ba226169489d92631df31f5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Water/Boiling/AcidBoiling.prefab using Guid(e370423ba226169489d92631df31f5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85222a9bc85c4fe43c8e6f6b343c450a') in 0.014522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallWhite.prefab
+  artifactKey: Guid(81bebb42ba43fdc40b64128b7f7d97fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallWhite.prefab using Guid(81bebb42ba43fdc40b64128b7f7d97fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bd1c020c19dd2754b5fab834a11337') in 0.014177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Magic/Aura Soft/AuraSoftBlue.prefab
+  artifactKey: Guid(6561be0bdcabd634da8ca71c49c14153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Magic/Aura Soft/AuraSoftBlue.prefab using Guid(6561be0bdcabd634da8ca71c49c14153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68554d5f50501c781c3ef93f71af0dfb') in 0.015026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Blam.prefab
+  artifactKey: Guid(b67d326910dc13b4fb27b823efcafcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Blam.prefab using Guid(b67d326910dc13b4fb27b823efcafcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1923953c0781297f7bb53921dac7e65c') in 0.017879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallRed.prefab
+  artifactKey: Guid(1123f53a3cb14044ab2b9b89588af35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallRed.prefab using Guid(1123f53a3cb14044ab2b9b89588af35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8d98af1db9835216153d4cc9c9d452') in 0.014297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodPoolGrowing.prefab
+  artifactKey: Guid(c6de9c3e430816d40aedcaaf84000975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodPoolGrowing.prefab using Guid(c6de9c3e430816d40aedcaaf84000975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4ba1e4e6c3fb9fec7d7b2bafda9d3a') in 0.012953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Underwater/BubbleBlastBigUnderwater.prefab
+  artifactKey: Guid(cb9bf8f7ab7299344a48e3eb96d6a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Underwater/BubbleBlastBigUnderwater.prefab using Guid(cb9bf8f7ab7299344a48e3eb96d6a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111a33f8def83f00cc69a3f5b8dff215') in 0.017726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.030999 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Unsorted/aura_punch_ADD.mat
+  artifactKey: Guid(11f7450de8b6c8c4d9a3fa39b78c143b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Unsorted/aura_punch_ADD.mat using Guid(11f7450de8b6c8c4d9a3fa39b78c143b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc179536cf55b537eaf50ebfca8094d2') in 0.011865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Bubbles/bubble_half_clear_AB.mat
+  artifactKey: Guid(17a51b7e0fd51c541b24cc33e181a0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Bubbles/bubble_half_clear_AB.mat using Guid(17a51b7e0fd51c541b24cc33e181a0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71ce67ffd062d20f9d4ebb2ad24e7f3') in 0.013914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/cloud_2x2_default_AB.mat
+  artifactKey: Guid(d386c5d9fb941e845b73fe6da5491ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/cloud_2x2_default_AB.mat using Guid(d386c5d9fb941e845b73fe6da5491ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf436710479e7c00c567805d8647aa8') in 0.012411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Fire/candle_AB.mat
+  artifactKey: Guid(7b4e313edccbf2042b7b119e69e4d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Fire/candle_AB.mat using Guid(7b4e313edccbf2042b7b119e69e4d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f04887a61986782f7e040588e534a4') in 0.011886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/cloud_magic_AB.mat
+  artifactKey: Guid(826ea3d1669996d4e8a0165518ed9f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/cloud_magic_AB.mat using Guid(826ea3d1669996d4e8a0165518ed9f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf6005cd3ed5c1a60a8fc7905ae440f') in 0.010593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Demo/Materials/Skybox/BlueSkybox.mat
+  artifactKey: Guid(2c308a3b06c530748acc49e5e317ee58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Materials/Skybox/BlueSkybox.mat using Guid(2c308a3b06c530748acc49e5e317ee58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e128a4b3dae0038b835414597afff639') in 0.229975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.818596 seconds.
+  path: Assets/Epic Toon FX/Demo/Materials/dev_big.mat
+  artifactKey: Guid(bcd2a1af41f54b744888194c97aa080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Materials/dev_big.mat using Guid(bcd2a1af41f54b744888194c97aa080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3321233129dc475adeb5ec4f865b03e') in 0.024842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Demo/Materials/Bullet Surfaces/dev_material_glass.mat
+  artifactKey: Guid(e05dfd819462e1142b6bf5a5e43d7050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Materials/Bullet Surfaces/dev_material_glass.mat using Guid(e05dfd819462e1142b6bf5a5e43d7050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ac3faf3127b6d16e81a8aaa15255f1') in 0.014006 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
