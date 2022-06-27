@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class Enemy_Pattern_2 : MonoBehaviour
 {
-    public Transform player;
-    public int timeBeetweenMoves = 4;
+    public GameObject player;
+    public int timeBeetweenMoves = 3;
 
-    private float time;
-    private float speed = 7f;
+    private float speed = 5f;
     private bool restartCoroutine2 = false;
-
-    Vector3 pointToMove;
-    Vector3 playerPosition;
-
+    private Vector3 playerLastPos;
 
 
     // Start is called before the first frame update
@@ -25,29 +21,25 @@ public class Enemy_Pattern_2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerPosition = new Vector3(player.position.x, 1.9f, player.position.z);
+        
 
         if (restartCoroutine2 == true)
         {
-            StartCoroutine(Patrol2Coroutine());
+            StartCoroutine(Pattern2());
         }
+        
+        
     }
 
-    void Patrol2()
-    {
-        transform.position = Vector3.MoveTowards(transform.position, pointToMove, speed / 3);
-    }
 
-    IEnumerator Patrol2Coroutine()
+    IEnumerator Pattern2()
     {
         restartCoroutine2 = false;
-        pointToMove = playerPosition;
-        transform.LookAt(pointToMove);
-        yield return new WaitForSeconds(3f);
-        Patrol2();
-
         yield return new WaitForSeconds(timeBeetweenMoves);
+        transform.LookAt(new Vector3(player.transform.position.x, 1.9f, player.transform.position.z));
+        playerLastPos = new Vector3(player.transform.position.x, 1.9f, player.transform.position.z);
+        yield return new WaitForSeconds(timeBeetweenMoves / 2);
+        transform.position = Vector3.Lerp(transform.position, playerLastPos, speed);
         restartCoroutine2 = true;
-
     }
 }

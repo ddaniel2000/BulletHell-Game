@@ -7,9 +7,9 @@ public class ProjectileController : MonoBehaviour
 
     public GameObject turrete_1;
     public GameObject turrete_2;
-    public GameObject turrete_3;
     public GameObject laser_insideEnemy;
     public GameObject shockWave;
+    public GameObject enemyTurrete;
 
     private float time;
     private float timeStart = 0f;
@@ -36,9 +36,8 @@ public class ProjectileController : MonoBehaviour
 
             turrete_1.SetActive(false);
             turrete_2.SetActive(false);
-            turrete_3.SetActive(false);
             shockWave.SetActive(false);
-
+            enemyTurrete.SetActive(false); 
 
         }
 
@@ -53,7 +52,7 @@ public class ProjectileController : MonoBehaviour
         //------------------PATTERN 2 ----------
         if (time > 60f && time < 61f)
         {
-            turrete_3.SetActive(true);
+            enemyTurrete.SetActive(true);
 
             turrete_1.SetActive(false);
             turrete_2.SetActive(false);
@@ -70,9 +69,8 @@ public class ProjectileController : MonoBehaviour
 
             turrete_1.SetActive(false);
             turrete_2.SetActive(false);
-            turrete_3.SetActive(false);
             laser_insideEnemy.SetActive(false);
-
+            enemyTurrete.SetActive(false);
 
 
             //desactivate prev

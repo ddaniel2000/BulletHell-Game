@@ -5,7 +5,8 @@ using UnityEngine;
 public class RadialBulletPattern : MonoBehaviour
 {
     //numbers of projectiles to shoot
-    public int numberOfProjectiles;
+    private int numberOfProjectiles1 = 18;
+    private int numberOfProjectiles2 = 1000;
     //speed of the projectile
     public float projectileSpeed;
     //profab to spawn
@@ -17,21 +18,26 @@ public class RadialBulletPattern : MonoBehaviour
     private const float radius = 1f;
 
     public int timeBeetweenShoots = 1;
-    private bool restartCoroutine = false;
+    private bool restartCoroutine1 = false;
+    private bool restartCoroutine2 = false;
 
     public float startAngle = 180f, endAngle = 270f;
 
     void Start()
     {
-        StartCoroutine(ShootingPattern());
+        StartCoroutine(ShootingPattern1());
     }
     // Update is called once per frame
 
     void Update()
     {
-        if (restartCoroutine == true)
+        if (restartCoroutine1 == true)
         {
-            StartCoroutine(ShootingPattern());
+            StartCoroutine(ShootingPattern1());
+        }
+        if (restartCoroutine2 == true)
+        {
+            StartCoroutine(ShootingPattern2());
         }
     }
     private void SpawnProjectile(int _numberOfProjectiles)
@@ -54,13 +60,22 @@ public class RadialBulletPattern : MonoBehaviour
         }
     }
 
-    IEnumerator ShootingPattern()
+    IEnumerator ShootingPattern1()
     {
-        restartCoroutine = false;
+        restartCoroutine1 = false;
         startPoint = transform.position;
-        SpawnProjectile(numberOfProjectiles);
+        SpawnProjectile(numberOfProjectiles1);
         yield return new WaitForSeconds(timeBeetweenShoots);
 
-        restartCoroutine = true;
+        restartCoroutine2 = true;
+    }
+    IEnumerator ShootingPattern2()
+    {
+        restartCoroutine2 = false;
+        startPoint = transform.position;
+        SpawnProjectile(numberOfProjectiles2);
+        yield return new WaitForSeconds(timeBeetweenShoots );
+
+        restartCoroutine1 = true;
     }
 }

@@ -5,10 +5,11 @@ using UnityEngine;
 public class DisableAfterSeconds : MonoBehaviour
 {
     private bool startCoroutine = false;
+    public float disblerTime = 2f;
     // Start is called before the first frame update
     void Start()
     {
-        startCoroutine = false;
+        startCoroutine = true;
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class DisableAfterSeconds : MonoBehaviour
 
     IEnumerator Disable()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(disblerTime);
         gameObject.SetActive(false);
     }
 }
