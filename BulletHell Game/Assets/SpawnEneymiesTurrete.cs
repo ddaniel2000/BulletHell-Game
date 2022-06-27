@@ -10,7 +10,6 @@ public class SpawnEneymiesTurrete : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(nextPosition());
         restartCoroutine = true;
     }
 

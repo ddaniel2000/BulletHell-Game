@@ -37,7 +37,7 @@ public class CameraLookAtPlayer : MonoBehaviour
         }
         if (lookAtPlayer == false)
         {
-            cameraTransform.LookAt(viwePointForTopDown);
+            transform.rotation = Quaternion.Euler(90, 0, 0);
         }
         
 

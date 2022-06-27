@@ -963,7 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93c02d9f8ffbd4042bbeba7781eddc2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeetweenSpawns: 5
+  timeBeetweenSpawns: 2
   miniEnemyPrefab: {fileID: 5859614781953478133, guid: ff7e4492136c029468c2d6fa8a1aa102, type: 3}
 --- !u!4 &518114660
 Transform:
@@ -1594,6 +1594,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1699,6 +1700,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _shader: {fileID: 4800000, guid: f19fcf4ddda10284299e57e7ed20db01, type: 3}
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485cff67ef5a6e845a3419efdd66858d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: 0
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.011529464
+      value: 0.0004383684
+      inSlope: 0.1552952
+      outSlope: 0.1552952
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.064674616
+    - serializedVersion: 3
+      time: 1.0044693
+      value: 0.29468313
+      inSlope: -0.029039295
+      outSlope: -0.029039295
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7897798
+    - serializedVersion: 3
+      time: 1.9583185
+      value: 0.08403767
+      inSlope: 0.03292769
+      outSlope: 0.03292769
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 3.8108897
+      value: 0.00064980565
+      inSlope: -0.14301364
+      outSlope: -0.14301364
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1970421
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  duration: 0.3
 --- !u!1 &1077526195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,6 +2101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 4978259579315557952}
   timeBeetweenMoves: 2
+  cameraShake: {fileID: 963194231}
 --- !u!1 &1175821531
 GameObject:
   m_ObjectHideFlags: 0
