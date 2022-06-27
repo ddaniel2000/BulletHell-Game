@@ -52,7 +52,10 @@ public class Health : MonoBehaviour
             cam.GetComponent<rotatePointWithMouse>().enabled = false;
         }
 
-
+        if (gameObject.transform.position.y < -6)
+        {
+            ModifyHealth(-1000);
+        }
     }
 
     //void OnCollisionEnter(Collision collisionInfo)
